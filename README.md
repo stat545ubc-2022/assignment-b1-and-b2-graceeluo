@@ -1,4 +1,4 @@
-#Assignment-b1
+Assignment-b1
 
 This assignment demonstrates my knowledge of making a function in R, documenting it and testing it. 
 
