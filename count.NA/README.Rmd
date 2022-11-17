@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!--badges: end --> 
 
-The goal of count.NA is to count the missing values (NA) in a specified column
+The goal of count.NA is to count the missing values (NA) in a specified column `col_name` of a given dataset `data`.
 
 ## Installation
 
@@ -25,14 +25,15 @@ You can install the development version of count.NA from [GitHub] (https://githu
 
 ```{r}
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-graceeluo")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-graceeluo/count.NA")
 ```
 
 ## Example
 
-This is a basic example which shows you how to 
+This is a basic example using the column 'diagnosis' from the 'cancer_sample' dataset: 
 
 ```{r example}
-library(datateachr)
+library(count.NA) #load in the package
+library(datateachr) #load in example datasets
 count.NA(cancer_sample, "diagnosis")
 ```
