@@ -1,7 +1,13 @@
-## Assignment-B1 
+## Assignment-B1 and Assignment-B2
 
-This assignment demonstrates my knowledge of making a function in R, documenting it and testing it. 
+This respository was created for both Assignment-B1 and Assignment-B2 as part of STAT545B. A function called count.NA was made and wrapped in an R package. The goal of the count.NA function is to count the missing values (NA) in a specified column `col_name` of a given dataset `data`.
 
-This function counts the missing values (NA) of a variable in a dataset. The output is a 1 x 1 tibble with variable "col_name" and its value of the integer count of missing values (NA). 
+The Assignment-b1 folder contains: 
+* the .rmd and .md files for the R function
+* relevant comments to guide the process for the audience
 
-This repository includes the .rmd and .md files for my assignment.
+The count.NA folder contains: 
+* the complete R package for the function
+* documents such as DESCRIPTION, LICENSE, NAMESPACE 
+* folders such as R, man and tests
+* installation instructions and examples in the README.md file
